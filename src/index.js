@@ -153,7 +153,7 @@ class GithubCalender extends Component{
 GithubCalender.propTypes = {
     username: PropTypes.string.isRequired, // Github user name
     text: PropTypes.string, // custom text to display
-    proxy: PropTypes.string // proxy url to fetch github page
+    proxy: PropTypes.func // proxy function to fetch github page
 }
 
 GithubCalender.defaultProps = {
