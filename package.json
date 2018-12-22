@@ -27,16 +27,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@babel/runtime": "^7.2.0",
     "add-subtract-date": "^1.0.13",
     "elly": "^1.1.9",
     "formatoid": "^1.2.2",
     "github-calendar-parser": "^1.1.9",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "webpack": "^4.28.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
