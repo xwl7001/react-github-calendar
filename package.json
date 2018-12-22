@@ -2,10 +2,7 @@
   "name": "react-github-calendar",
   "version": "1.0.0",
   "description": "Embed your GitHub calendar in React App. ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xwl7001/react-github-calendar.git"
@@ -20,5 +17,33 @@
   "bugs": {
     "url": "https://github.com/xwl7001/react-github-calendar/issues"
   },
-  "homepage": "https://github.com/xwl7001/react-github-calendar#readme"
+  "homepage": "https://github.com/xwl7001/react-github-calendar#readme",
+  "peerDependencies": {
+    "react": "^16.x.x"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "add-subtract-date": "^1.0.13",
+    "elly": "^1.1.9",
+    "formatoid": "^1.2.2",
+    "github-calendar-parser": "^1.1.9",
+    "react": "^16.7.0",
+    "webpack": "^4.28.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.2",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
