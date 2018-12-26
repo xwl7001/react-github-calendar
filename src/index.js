@@ -4,6 +4,8 @@ import parse from 'github-calendar-parser'
 import $ from "elly"
 import addSubtractDate from "add-subtract-date"
 import formatoid from "formatoid"
+import 'whatwg-fetch'
+//import {fetch as fetchPolyfill} from 'whatwg-fetch'
 
 import './GithubCalendar.less';
 
