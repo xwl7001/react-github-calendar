@@ -1,17 +1,17 @@
 
 # React Github Calender
 
-In commonJS environment, you can install `react-github-calender-x` using below commands
+In commonJS environment, you can install `@xwl7001/react-github-calender` using below commands
 
 ```sh
 # Using npm
-npm i react-github-calender-x
+npm i @xwl7001/react-github-calender
 
 # Using yarn
-yarn add react-github-calender-x
+yarn add @xwl7001/react-github-calender
 ```
 
-Inspired from [@ajay2507](https://github.com/ajay2507/react-github-calender) to create react-github-calender-x
+Inspired from [@ajay2507](https://github.com/ajay2507/react-github-calender) to create `@xwl7001/react-github-calender`
 
 ![](2018-12-23-04-12-11.png)
 
